@@ -142,7 +142,7 @@ function createArray(size, seedVal) {
 
   ```javascript
   function times(number, action) {
-     while(--number) {
+     while(number--) {
          action();
      }
   }
